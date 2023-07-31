@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>J-POSS - FAQs</title>
   <style>
-    /* CSS from the Home Page */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -21,23 +20,6 @@
       text-align: center;
     }
 
-    nav {
-      background-color: #f0f0f0;
-      padding: 10px;
-      text-align: center;
-    }
-
-    nav a {
-      display: inline-block;
-      margin: 0 10px;
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
     .container {
       max-width: 800px;
       margin: 20px auto;
@@ -45,37 +27,44 @@
     }
 
     h1 {
-      color: #007bff;
+      color: white;
     }
 
     p {
       line-height: 1.6;
     }
 
+    .cta-button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .feature {
+      flex-basis: 30%;
+      padding: 20px;
+      text-align: center;
+      background-color: #f7f7f7;
+      border-radius: 5px;
+    }
+
     footer {
       background-color: #f0f0f0;
       padding: 10px;
       text-align: center;
-    }
-
-    /* Custom CSS for FAQs Page */
-    .faq-item {
-      margin-bottom: 20px;
-    }
-
-    .question {
-      font-weight: bold;
-      color: #007bff;
-      cursor: pointer;
-    }
-
-    .answer {
-      display: none;
-      margin-top: 5px;
-    }
-
-    .answer p {
-      color: #333;
     }
   </style>
 </head>
